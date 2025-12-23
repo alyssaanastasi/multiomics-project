@@ -1,0 +1,19 @@
+name: multiomics
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - ipykernel
+  - jupyter
+  - pip
+  - pip:
+    - mofapy2==0.7.2 
+    - scanpy==1.10.4
+    - mofax==0.3.7 
+    - scipy==1.14.1 
+    - pandas==2.2.3 
+    - matplotlib==3.9.2 
+    - seaborn==0.13.2 
+    - leidenalg 
+    - decoupler
+    - muon==0.1.7
